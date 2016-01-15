@@ -4,7 +4,6 @@
  * @abstract common input, it's value can be string | phone
  */
 var React = require('react');
-var ReactDOM = require('react-dom');
 
 var Text = React.createClass({
     getInitialState: function() {
@@ -49,8 +48,3 @@ var Text = React.createClass({
        );
    }
 });
-
-ReactDOM.render(
-    <Text />,
-    document.getElementById('structure')
-);
